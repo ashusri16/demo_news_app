@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="19H524" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="NewsDB" representedClassName=".NewsDB" syncable="YES">
+        <attribute name="author" optional="YES" attributeType="String"/>
+        <attribute name="desc" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <attribute name="url" optional="YES" attributeType="String"/>
+        <attribute name="urlToImage" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="NewsEnvelopDB" representedClassName="NewsEnvelopDB" syncable="YES">
+        <attribute name="articles" optional="YES" attributeType="Transformable" valueTransformerName=""/>
+        <attribute name="status" optional="YES" attributeType="String"/>
+        <attribute name="totalResults" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="NewsDB" positionX="-63" positionY="-18" width="128" height="118"/>
+        <element name="NewsEnvelopDB" positionX="-54" positionY="27" width="128" height="88"/>
+    </elements>
+</model>
